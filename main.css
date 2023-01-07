@@ -11,7 +11,7 @@ body {
 
 /* hero-section styles */
 .hero-section {
-    background-image: url('/images/hero-bg.png');
+    background-image: url('./images/hero-bg.png');
     height: 650px;
     background-repeat: no-repeat;
     background-size: 100% 650px;
@@ -132,7 +132,7 @@ body {
 
 /* banner styles */
 .banner {
-    background-image: url('/images/watch.png');
+    background-image: url('./images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
