@@ -269,3 +269,38 @@ body {
     padding: 20px 36px;
     border: none;
 }
+
+/* Unique section styles  */
+.quotes-section{
+    background-image: url('./images/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 100px 0px 130px 0px;
+}
+.quotes-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.quotes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+.quote{
+    max-width: 400px;
+    border: 2px solid blanchedalmond;
+    background-color: rgba(222, 184, 135, 0.438);
+    color: white;
+    padding: 20px;
+    align-self: flex-start;
+}
+.quote > p{
+    color: #737272;
+    text-align: end;
+    margin-top: 16px;
+}
